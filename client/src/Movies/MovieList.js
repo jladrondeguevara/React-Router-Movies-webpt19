@@ -4,7 +4,7 @@ const MovieList = props => {
   return (
     <div className="movie-list">
       {props.movies.map(movie => (
-        <MovieDetails key={movie.id} movie={movie} />
+        <MovieDetails key={movie.id} movie={movie.id} />
       ))}
     </div>
   );
