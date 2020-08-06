@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import MovieList from "./Movies/MovieList"
 import Movie from "./Movies/Movie"
-import {Link, Route} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 
 import SavedList from './Movies/SavedList';
 
